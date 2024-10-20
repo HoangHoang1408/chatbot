@@ -1,0 +1,61 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+venv/
+ENV/
+*.egg-info/
+.installed.cfg
+*.egg
+build/
+dist/
+pip-wheel-metadata/
+*.whl
+
+# Unit test / coverage reports
+.coverage
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# celery beat schedule file
+celerybeat-schedule
+
+# dotenv environment variables file
+.env
+*.env
+
+# Editor directories and files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# Docker-related files (optional)
+Dockerfile*
+.dockerignore
+docker-compose*.yml
+
+# Temporary files and directories
+*.tmp
+*.swp
+*.bak
+.DS_Store
+Thumbs.db
